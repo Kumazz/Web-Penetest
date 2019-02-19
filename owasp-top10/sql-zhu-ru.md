@@ -1,6 +1,6 @@
 # 写在最前
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 环境需求
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SQLi在线靶场](https://sqli-labs.htctf.com/)、[SQLi Github](https://github.com/Audi-1/sqli-labs)、Docker(镜像)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SQLi在线靶场](https://sqli-labs.htctf.com/)、[SQLi Github](https://github.com/Audi-1/sqli-labs)、Docker(镜像)、SQL语言、Hackbar插件
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker run -dt --name sqli -p 80:80 --rm acgpiano/sqli-labs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;run 运行 -dt 守护进程 --name 别名 --rm 停止运行删除进程
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 关于SQLi
