@@ -27,8 +27,8 @@
     核心注入句:
         查库: select schema_name from information_schema.shcemata
         查表: select table_name from information_schema.tables where table_schema='库名'
-        查列: select column_name from information_schema.columns where table_name='表明'
-        查数据: select 列明 from 库名.表名
+        查列: select column_name from information_schema.columns where table_name='表名'
+        查数据: select 列 from 库名.表名
 ```
 
 
