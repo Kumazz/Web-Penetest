@@ -9,9 +9,9 @@
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 注入流程
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.注入点识别:
 ```
-    手工识别:  '   and 1=1/and 1=2   and '1'='1/and '1'='2
-                  and 1 like 1/and 1 like 2
-                  or 1=1/or 1=2,注意参数要提前设置成错误参数
+    手工识别:  '   and 1=1 / and 1=2   and '1'='1 / and '1'='2
+                  and 1 like 1 / and 1 like 2
+                  or 1=1 / or 1=2,注意参数要提前设置成错误参数
                   
     工具识别:  sqlmap -m filename(filename中保留检测目标)
               sqlmap --crawl(sqlmap对目标网站进行爬去，然后依次测试)
