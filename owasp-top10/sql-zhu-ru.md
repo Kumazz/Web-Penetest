@@ -10,6 +10,8 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**危害:** 获取数据库内容、读取文件信息、Getshell(root权限)
 ![](/assets/QQ20190218-174536@2x.png)
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 查看数据库类型
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**代码查询**:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**报错显示**:
 ![](/assets/QQ20190218-181926@2x.png)
 ![](/assets/QQ20190218-181837@2x.png)
