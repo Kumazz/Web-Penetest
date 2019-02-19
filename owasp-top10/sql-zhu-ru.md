@@ -12,8 +12,14 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 常用代码
 ```sql
     数据库: database()       数据库版本: version()
+    用户: user()
+                 
     查询列数: order by,采用二分法
-    联合查询: union,注意列数
+    联合查询: union,注意列数匹配
+    连接函数: concat(),concat_ws(),group_concat()，前两者返回一个数据，后者返回数列
+    
+    写文件: into outfile PATH，函数前构建文件   
+    读文件: load_file(PATH)  
 ```
 
 
