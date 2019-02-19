@@ -7,7 +7,7 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 关于SQLi
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**原因:** 开发人员对从web表单、cookie、输入参数等收到的值传递给SQL查询之前进行过滤控制
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**原理:** SQL代码插入或添加到应用(用户)的输入参数中，并且参数在后台SQL服务器中解析和执行
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**危害:** 获取数据库内容、读取文件信息、getshell(root权限)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**危害:** 获取数据库内容、读取文件信息、Getshell(root权限)
 ![](/assets/QQ20190218-174536@2x.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 常用代码
 ```sql
