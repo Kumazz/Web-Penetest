@@ -1,6 +1,6 @@
 # SQL注入
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 环境需求
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SQLi在线靶场](https://sqli-labs.htctf.com/)、[SQLi Github](https://github.com/Audi-1/sqli-labs)、Docker(镜像)、SQL语言、Hackbar插件
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SQLi在线靶场](https://sqli-labs.htctf.com/)、[SQLi Github](https://github.com/Audi-1/sqli-labs)、Docker(镜像)、SQL语言、Hackbar插件、域名采集器
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker run -dt --name sqli -p 80:80 --rm acgpiano/sqli-labs
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;docker exec -it imageID /bin/bash
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;run 运行 -dt 守护进程 --name 别名 --rm 停止运行删除进程
@@ -21,7 +21,7 @@
     写文件: into outfile PATH，函数前构建文件   
     读文件: load_file(PATH)  
 ```
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 常规流程
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 常规流程(MySQL)
 ```sql
     判断注入点: '  and 1=1/2  or 1=1/2,看页面反馈,但是使用or判断时,要设置为错误参数
     判断数据库: 
