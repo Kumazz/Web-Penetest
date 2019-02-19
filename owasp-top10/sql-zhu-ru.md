@@ -9,7 +9,11 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**原理:** SQL代码插入或添加到应用(用户)的输入参数中，并且参数在后台SQL服务器中解析和执行
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**危害:** 获取数据库内容、读取文件信息、Getshell(root权限)
 ![](/assets/QQ20190218-174536@2x.png)
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 常用代码
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 查看数据库类型
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**报错显示**:
+![](/assets/QQ20190218-181926@2x.png)
+![](/assets/QQ20190218-181837@2x.png)
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 常用代码
 ```sql
     数据库: database()       数据库版本: version()
     用户: user()
@@ -21,7 +25,7 @@
     写文件: into outfile PATH，函数前构建文件   
     读文件: load_file(PATH)  
 ```
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 常规流程(MySQL)
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 常规流程(MySQL)
 ```sql
     判断注入点: '  and 1=1/2  or 1=1/2,看页面反馈,但是使用or判断时,要设置为错误参数
     核心注入句:
