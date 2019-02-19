@@ -21,6 +21,14 @@
     写文件: into outfile PATH，函数前构建文件   
     读文件: load_file(PATH)  
 ```
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 常规流程
+```sql
+    判断注入点: '  and 1=1/2  or 1=1/2,看页面反馈,但是使用or判断时,要设置为错误参数
+    判断数据库: 
+```
+
+
+
 
 
 
