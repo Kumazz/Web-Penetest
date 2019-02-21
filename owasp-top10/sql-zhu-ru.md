@@ -30,6 +30,7 @@
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 常规流程(MySQL)
 ```sql
     判断注入点: '  and 1=1/2  or 1=1/2,看页面反馈,但是使用or判断时,要设置为错误参数
+    查询列数: order by 
     核心注入句:
         查库: select schema_name from information_schema.shcemata
         查表: select table_name from information_schema.tables where table_schema='库名'
