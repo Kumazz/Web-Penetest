@@ -28,9 +28,8 @@
 ```
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.信息收集:
 ![](/assets/B37DE04BFA39F1E89C6D4C24BE781008.png)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.内容获取:
-```sql
-   判断注入点后,联合查询法,语句末尾添加 %23 或者 --+ 进行注释
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.内容获取: 注入语句末尾添加 %23 或者 --+ 进行注释
+```sql 
    字段长度: order by
    显示字段: union select null,null,强制报错显示字段
    查库信息: union select database(),version()
