@@ -27,6 +27,8 @@ select version()可替换 select table_name from information_schema.tables where
 ![](/assets/22F086091F949BB64B59D97865EFE310.png)
 ![](/assets/26024E61529BC7DF606D3641DB676AAB.png)
 
+**注意: [其他报错方式](https://www.waitalone.cn/mysql-error-based-injection.html)、报错返回会有32限制(采用substr(concat(内容),1,2)截取)**
+
 
 
 
