@@ -5,6 +5,6 @@
 * [OWASP TOP10](owasp-top10.md)
   * [SQL 注入](owasp-top10/sql-zhu-ru.md)
     * [回显注入法](owasp-top10/sql-zhu-ru/zhu-ru-fa-xiang-jie.md)
-    * 无显注入法
+    * [无显注入法](owasp-top10/sql-zhu-ru/wu-xian-zhu-ru-fa.md)
     * [MySQL 注入](owasp-top10/sql-zhu-ru/mysql-zhu-ru.md)
 
