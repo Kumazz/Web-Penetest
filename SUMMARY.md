@@ -8,4 +8,5 @@
     * [无显注入法](owasp-top10/sql-zhu-ru/wu-xian-zhu-ru-fa.md)
     * [MySQL 注入](owasp-top10/sql-zhu-ru/mysql-zhu-ru.md)
     * [SQLMap应用](owasp-top10/sql-zhu-ru/sqlmapying-yong.md)
+    * [注入绕过初级](owasp-top10/sql-zhu-ru/zhu-ru-rao-guo-chu-ji.md)
 
