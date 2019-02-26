@@ -18,6 +18,10 @@
 ![](/assets/B435E9AB095D69230969F8256C149BB5.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法: 配合Burpsuite快速匹配
 ![](/assets/60C5189C592E0E2494B4047CA306E7C1.png)
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 DNSLog盲注
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法: 目标服务器是 windows server 才能用此方法
+![](/assets/4BFF8119025B38FF4A8FAC2F09B0B1F2.png)
+
 
 
 
