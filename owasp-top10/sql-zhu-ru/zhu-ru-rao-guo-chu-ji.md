@@ -1,4 +1,4 @@
-# M注入绕过初级
+# 注入绕过初级
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 宽字节注入
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理: GBK编码原因
 ![](/assets/1D9686C1BD68278B8BCC54E99EC2B241.png)
