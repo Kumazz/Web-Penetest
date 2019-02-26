@@ -1,4 +1,8 @@
+# SQLMap应用
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 环境需求
+
 SQLmap是一个自动化的SQL注入工具，其主要功能是扫描，发现并利用给定的URL的SQL注入漏洞，目前支持的数据库是MySQL，Oracle，PostgreSQL，Microsoft  SQL  Server，Microsoft Acess，IBM DB2，SQLLite，Firebird，Sybase和SAP MaxDB……SQLmap采用几种独特的SQL注入技术，分别是盲推理SQL注入，UNION查询SQL注入，对查询和盲注。其广泛的功能和选项包括数据库指纹，枚举，数据库提取，访问目标文件系统，并在获取完全操作权限时实行任意命令
+![](/assets/AF1C4C8C3124CC854FBE3962B95BFA39.png)
 
 python sqlmap.py -u "http://172.16.12.2/inject.php?id=1"
 -u参数指定目标注入地址,为了规范，目标注入地址尽量用""引起来
