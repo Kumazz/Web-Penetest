@@ -8,7 +8,7 @@
 ![](/assets/83A2168FAA2CDFB87AF8716FC9F92A3B.png)
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 关于内置库
 ![](/assets/618D4E32E84852266ED812F5595453FF.png)
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 注入流程
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 注入流程
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.注入点识别:
 ```
     手工识别:  '   
