@@ -21,6 +21,9 @@
 ![](/assets/6B37981953EA65D0AAF59A449C0CDEE0.png)
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 文件读写
 ![](/assets/7DD0C0541CE8C0BD131CC74FD2C934C4.png)
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 其他技巧
+![](/assets/DCA5AA4241BAC79774F9AAFB66D02E59.png)
+
 
 
 
