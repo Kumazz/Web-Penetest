@@ -12,4 +12,5 @@
     * [ORACLE注入](owasp-top10/sql-zhu-ru/oraclezhu-ru.md)
     * [SQLMap应用](owasp-top10/sql-zhu-ru/sqlmapying-yong.md)
     * [简单WAF绕过](owasp-top10/sql-zhu-ru/jian-dan-waf-rao-guo.md)
+  * 解析上传
 
