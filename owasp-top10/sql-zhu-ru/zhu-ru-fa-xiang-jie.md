@@ -29,6 +29,9 @@ select version()可替换 select table_name from information_schema.tables where
 ![](/assets/26024E61529BC7DF606D3641DB676AAB.png)
 
 **注意: [其他报错方式](https://www.waitalone.cn/mysql-error-based-injection.html)、报错返回会有32限制(采用substr(concat(内容),1,2)截取)**
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 堆叠注入
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理: 堆叠查询可以执行多条SQL语句，语句之间以分号(;)隔开
+[堆叠注入实战](https://blog.csdn.net/SouthWind0/article/details/82929895)、[各库堆叠注入](https://www.cnblogs.com/0nth3way/articles/7128189.html)、
 
 
 
