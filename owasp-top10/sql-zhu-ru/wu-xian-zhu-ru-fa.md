@@ -37,7 +37,7 @@
 
 ![](/assets/60C5189C592E0E2494B4047CA306E7C1.png)
 
-### 0x03 DNSLog盲注
+### 0x04 DNSLog盲注
 
 #### 方法: 目标服务器是 windows server 才能用此方法
 
