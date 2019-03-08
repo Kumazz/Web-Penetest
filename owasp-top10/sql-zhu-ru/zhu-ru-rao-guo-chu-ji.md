@@ -7,6 +7,7 @@
 ```
     sqlmap的应用:    sqlmap -u "URL%df"
 ```
+![](/assets/WX20190308-163047@2x.png)
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x02 二次编码注入
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理: %25=%，%27='
 ![](/assets/819D6BE3ABC9332640A198A04C59DBE3.png)
