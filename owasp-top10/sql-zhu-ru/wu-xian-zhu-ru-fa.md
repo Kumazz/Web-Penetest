@@ -4,6 +4,8 @@
     if(expr1,expr2,expr3),满足条件expr1即条件expr1返回expr2否则expr3
     mid(str,start,length),第一个参数是内容，第二参数是截取位置，第三参数是截取长度
     substr(str,pos,len)
+    ascii(),编码绕过,如: ascii(substr((select user()),1,1))=114
+    left(str,length)
 ```
 ### 0x02 布尔盲注
 
