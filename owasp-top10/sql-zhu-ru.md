@@ -37,7 +37,7 @@
     写文件: into outfile PATH，函数前构建文件   
     读文件: load_file(PATH)  
     
-    %a0代替空格、%27代表 ' 
+    /**/或者%a0代替空格、%27代表 ' 
 ```
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x06 注入流程(MySQL)
 ```sql
