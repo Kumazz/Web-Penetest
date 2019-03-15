@@ -34,6 +34,17 @@
     
     https://blog.csdn.net/qq_36512966/article/details/72674794
 ```
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 cookie注入
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理:php中，使用超全局变 $_GET，$_POST来接受参数。 asp中，使用Request.QueryString (GET)或 Request.Form (POST)来接收页面提交的参数值，程序不是先取GET中的数据，没有再取POST中的数据，还会去取Cookies中的数据，一般写防护的会忽略cookie防御
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法:
+```html
+    avascript:alert（document.ｃookie ="id="+escape("1")); 回车弹出对话框内容为1
+    刷新一下网页，如果正常显示，表示该页是用Request("ID")这样的格式收集数据，这种格式就可以试Cookies注入了
+    
+    SQLMap:  sqlmap.py -u "http://172.16.12.2/test.php" --cookie "id=1" --level 2  --level>2才会检查cookie
+```
+
+
 
 
 
