@@ -7,6 +7,7 @@
     * [回显注入法](owasp-top10/sql-zhu-ru/zhu-ru-fa-xiang-jie.md)
     * [无显注入法](owasp-top10/sql-zhu-ru/wu-xian-zhu-ru-fa.md)
     * [其他注入法](owasp-top10/sql-zhu-ru/zhu-ru-rao-guo-chu-ji.md)
+    * [ACCESS注入](owasp-top10/sql-zhu-ru/accesszhu-ru.md)
     * [MySQL 注入](owasp-top10/sql-zhu-ru/mysql-zhu-ru.md)
     * [MSSQL 注入](owasp-top10/sql-zhu-ru/mssqlzhu-ru.md)
     * [ORACLE注入](owasp-top10/sql-zhu-ru/oraclezhu-ru.md)
