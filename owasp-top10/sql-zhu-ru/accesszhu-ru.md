@@ -40,7 +40,12 @@
     字段数=order by 出的字段数-*号的字段数x2
     偏移注入: union select 1,2,3,4,5,6,7,8,9,10,* from (adminas a inner join admin as b ona.id=b.id)
             1,2,3,4,5,6,7,8,9,10, //上述公式这里理解为剩下的字段数就可以
+    (后续百度一下吧，gay主自己也没搞透，不好意思写，误人)
 ```
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x05 工具
+[靶场实战](https://www.jianshu.com/p/c1ebccc72486?from=timeline)、SQLMap、穿山甲、胡萝卜、啊D、明小子等，有时候一个注入工具不行，几个一起上还是很阔以的
+
+
 
 
 
