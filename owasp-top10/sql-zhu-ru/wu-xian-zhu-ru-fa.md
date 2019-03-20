@@ -36,6 +36,8 @@
 #### 方法: 配合Burpsuite快速匹配,提高效率语句:    if((left(user(),1)='a'),sleep(5),1)
 
 ![](/assets/60C5189C592E0E2494B4047CA306E7C1.png)
+或者直接利用bp注入
+![](/assets/WX20190320-151705@2x.png)
 
 ### 0x04 DNSLog盲注
 
