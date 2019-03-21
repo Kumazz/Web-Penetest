@@ -1,8 +1,26 @@
 # 其他注入法(下)
-###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 HTTP注入
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 HTTP注入 [(详情)](https://www.cnblogs.com/softidea/p/5325079.html)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;原理: 利用HTTP协议头部未进行过滤检查进行注入
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;方法: XFF、UserAgent
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.X-Forwarded-For简称XFF头，它代表了客户端的真实IP，通过修改他的值就可以伪造客户端IP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.X-Forwarded-For简称XFF头，它代表了客户端的真实IP，通过修改他的值就可以伪造客户端IP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;利用burpsuite的抓包及Repeater模块进行测试攻击，或者抓包头部信息利用SQLMap进行检测攻击
+
+```
+    1.1 利用burpsuite+Repeater模块进行XFF检测攻击
+        在Repeater模块中XFF协议处进行常规检测，如: X-Forwarded-for: 127.0.0.1' and 1=1#
+        查库: X-Forwarded-for: 127.0.0.1' union select 1,2,database()#,常规查询手法
+    1.2 利用burpsuite+sqlmap组合检测注入
+        利用burpsuite抓包出文件保存到 txt 文本中，再利用 SQLMap -r 文件 -D 等常规操作
+      
+```
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.User-agent记录软件程序的客户端信息的HTTP头字段，他可以用来统计目标和违规协议
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[报错注入法](https://www.jianshu.com/p/ee7f660295b1)、[延时注入法](https://www.freebuf.com/articles/web/105124.html)、SQLMap导入文件法
+
+```
+
+```
+
+
 
 
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x01 COOKIE注入
