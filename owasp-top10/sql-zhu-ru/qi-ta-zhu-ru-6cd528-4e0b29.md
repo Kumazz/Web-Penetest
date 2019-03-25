@@ -27,13 +27,14 @@
     
 ```
 ###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 POST注入、搜索型注入
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[手工+SQLMap实战](https://www.jianshu.com/p/26b1576b37bb)、[Burpsuite+SQLMap实战](https://blog.csdn.net/u011781521/article/details/58594941)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[SQLMap POST](https://blog.csdn.net/u011781521/article/details/58594941)、[搜索型案例](https://blog.csdn.net/u011781521/article/details/57083482)、[手工+SQLMap实战](https://www.jianshu.com/p/26b1576b37bb)
 
 
 ```
     搜索型注入核心语法:'and 1=1 and '%'='
                     %' and 1=1--'
-                    %' and 1=1 and '%'='，在搜索框内进行测试
+                    %' and 1=1 and '%'='
+    在搜索框内进行测试，建议在hackbar并打开enable post data进行常规注入即可
     SQLMap则是先抓包成文件，利用 sqlmap -r 文件 -p
 
 ```
