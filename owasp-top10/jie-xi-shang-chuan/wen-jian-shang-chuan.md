@@ -17,6 +17,9 @@
 ![](/assets/3A17CFE96EE80FE9E8620C647FB512F9.png)
 ![](/assets/B4369CB0B82E4DD61EBACD785FD59CBC.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.文件参数检测绕过 -- 添加多个 filename 属性绕过扩展名拦截
+![](/assets/E61BBEFA96F807CBC994888B2145F8B2.png)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.目录穿越绕过 -- 目录可控情况下
+
 
 
 
