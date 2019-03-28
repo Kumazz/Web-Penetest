@@ -1,4 +1,4 @@
-# 上传漏洞 -- [上传漏洞总结](https://blog.csdn.net/a15803617402/article/details/83003152)
+# 上传漏洞 -- [上传漏洞总结](https://www.andseclab.com/2018/12/01/%E4%B8%8A%E4%BC%A0%E6%BC%8F%E6%B4%9E%E6%94%BB%E5%87%BB%E6%80%BB%E7%BB%93/)、[上传漏洞技巧](https://blog.csdn.net/a15803617402/article/details/83003152)
 ###0x00 Burpsuite报文解释
 ![](/assets/165BC275DAF6A223E3B8A8BCAE7406E5.jpg)
 ###0x01 前端检测绕过
