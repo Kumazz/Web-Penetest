@@ -8,10 +8,14 @@
 ![](/assets/EA98209121D004407CB454136B638AC8.png)
 ###0x02 服务端检测绕过
 ![](/assets/CFCAF2D29537149133FA48782BC548AB.png)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.MIME类型检测绕过 -- 利用上传文件扩展名白名单，Content-Type
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.MIME类型检测绕过 -- 利用上传文件扩展名白名单，Content-Type修改
 ![](/assets/EECBADAFDDE510A581B45435073EF64F.png)
 ![](/assets/D0AFD54E7643628E868252C9AAA34BE0.png)
 ![](/assets/B99492B429E94D7ADA75FC00C460B902.png)
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.文件内容检测 -- 画板生成 1*1px 的图像
+![](/assets/364D4AAB3C4557E8BE2152DE8A842832.png)
+![](/assets/3A17CFE96EE80FE9E8620C647FB512F9.png)
+
 
 
 
