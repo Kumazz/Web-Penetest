@@ -1,4 +1,4 @@
-# 文件上传 -- [上传漏洞总结](https://blog.csdn.net/a15803617402/article/details/83003152)
+# 上传漏洞 -- [上传漏洞总结](https://blog.csdn.net/a15803617402/article/details/83003152)
 ###0x00 Burpsuite报文解释
 ![](/assets/165BC275DAF6A223E3B8A8BCAE7406E5.jpg)
 ###0x01 前端检测绕过
