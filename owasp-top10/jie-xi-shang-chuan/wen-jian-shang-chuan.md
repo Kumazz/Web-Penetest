@@ -11,7 +11,7 @@
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.MIME类型检测绕过 -- 利用上传文件扩展名白名单，Content-Type
 ![](/assets/EECBADAFDDE510A581B45435073EF64F.png)
 ![](/assets/D0AFD54E7643628E868252C9AAA34BE0.png)
-![](/assets/40FF78A7ACBF979FCF35DAF39C78D3F7.png)
+![](/assets/B99492B429E94D7ADA75FC00C460B902.png)
 
 
 
