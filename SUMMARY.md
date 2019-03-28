@@ -14,6 +14,6 @@
     * [其他注入法\(下\)](owasp-top10/sql-zhu-ru/qi-ta-zhu-ru-6cd528-4e0b29.md)
     * [SQLMap应用](owasp-top10/sql-zhu-ru/sqlmapying-yong.md)
   * [解析上传](owasp-top10/jie-xi-shang-chuan.md)
+    * [解析漏洞](owasp-top10/jie-xi-shang-chuan/jie-xi-lou-dong.md)
     * [上传漏洞](owasp-top10/jie-xi-shang-chuan/wen-jian-shang-chuan.md)
-    * 解析漏洞
 
