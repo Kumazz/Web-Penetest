@@ -18,7 +18,9 @@
 ![](/assets/B4369CB0B82E4DD61EBACD785FD59CBC.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.文件参数检测绕过 -- 添加多个 filename 属性绕过扩展名拦截
 ![](/assets/E61BBEFA96F807CBC994888B2145F8B2.png)
-####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.目录穿越绕过 -- 目录可控情况下
+####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.目录穿越绕过 -- 403、目录可控情况下，每一层目录测试
+![](/assets/347A990B43ED15FA221D46C4CA549D92.png)
+![](/assets/D0A43F246125AADC3154BC5A7858DD6C.jpg)
 
 
 
