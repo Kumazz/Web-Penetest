@@ -24,6 +24,7 @@
 ![](/assets/347A990B43ED15FA221D46C4CA549D92.png)
 ![](/assets/D0A43F246125AADC3154BC5A7858DD6C.jpg)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.扩展名检测类型可控 -- 黑白名单
+![](/assets/WX20190401-133031@2x.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.利用 windows 不区分大小写特性，在上传时候将文件后缀名大小写或者大小写混合**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**2.不常见的后缀名**
 ![![](/assets/WX20190401-115559@2x.pn](/assets/WX20190401-115730@2x.png)
