@@ -14,8 +14,8 @@
 ![](/assets/B99492B429E94D7ADA75FC00C460B902.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.文件内容检测绕过 -- 画板生成 1*1px 的图像
 ![](/assets/364D4AAB3C4557E8BE2152DE8A842832.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**也可以先上传一张正常图片，抓包后，在文件内容代码末尾添加一句话木马
-**![](/assets/3A17CFE96EE80FE9E8620C647FB512F9.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**也可以先上传一张正常图片，抓包后，在文件内容代码末尾添加一句话木马**
+![](/assets/WX20190401-112025@2x.png)
 ![](/assets/B4369CB0B82E4DD61EBACD785FD59CBC.png)
 ####&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.文件参数检测绕过 -- 添加多个 filename 属性绕过扩展名拦截
 ![](/assets/E61BBEFA96F807CBC994888B2145F8B2.png)
