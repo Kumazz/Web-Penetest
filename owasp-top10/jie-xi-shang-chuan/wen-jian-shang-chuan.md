@@ -35,7 +35,7 @@
 ![](/assets/WX20190401-132640@2x.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.特殊字符截断**
 ![](/assets/WX20190401-132803@2x.png)
-###0x04 补充不常见后缀
+###0x04 补充不常见后缀(混合大小写)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP: .php2、php1、.phtml、.pht、.pHp、.pHp5、.pHtml
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JSP: .jspa、.jsw、.jsv、.jspf、.jtml、.jSp
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ASP/ASPX: .asax、.ascx、.asmx、.aSp、aSpx、cEr、sWf
