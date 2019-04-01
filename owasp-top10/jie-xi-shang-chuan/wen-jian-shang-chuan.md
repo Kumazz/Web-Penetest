@@ -35,6 +35,16 @@
 ![](/assets/WX20190401-132640@2x.png)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**5.特殊字符截断**
 ![](/assets/WX20190401-132803@2x.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**6. .htaccess绕过**
+![](/assets/WX20190401-165011@2x.png)
+
+```
+    创建任意文件
+    文件内容为: SetHandler application/x-httpd-php
+    文件另存为 .htaccess 即可，再上传任意文件即可当成 php 执行
+```
+
+
 ###0x04 补充不常见后缀(混合大小写)
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PHP: .php2、php1、.phtml、.pht、.pHp、.pHp5、.pHtml
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JSP: .jspa、.jsw、.jsv、.jspf、.jtml、.jSp
