@@ -42,6 +42,7 @@
     创建任意文件
     文件内容为: SetHandler application/x-httpd-php
     文件另存为 .htaccess 即可，再上传任意文件即可当成 php 执行
+    有时候系统无法保存 .htaccess 文件，可以先保存 任意名.htaccess 上传后通过bp改为 .htaccess
 ```
 
 
