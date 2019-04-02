@@ -6,4 +6,5 @@
 ###0x03 在线解压缩的利用
 ![](/assets/061A572A3B6EBFFAF8A2A5DD4F5D1853.png)
 ![](/assets/C377D021DAFD5417FEB91B72B12D0CA2.png)
+###0x04 [二次渲染绕过](https://xz.aliyun.com/t/2657)
 
