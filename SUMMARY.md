@@ -17,5 +17,5 @@
     * [解析漏洞](owasp-top10/jie-xi-shang-chuan/jie-xi-lou-dong.md)
     * [上传漏洞](owasp-top10/jie-xi-shang-chuan/wen-jian-shang-chuan.md)
     * [高级利用](owasp-top10/jie-xi-shang-chuan/gao-ji-li-yong.md)
-    * 编辑器漏洞
+    * [编辑器漏洞](owasp-top10/jie-xi-shang-chuan/bian-ji-qi-lou-dong.md)
 
