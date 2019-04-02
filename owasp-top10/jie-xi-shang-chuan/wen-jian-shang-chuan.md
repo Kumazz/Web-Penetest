@@ -59,7 +59,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;exp：move_uploaded_file($_FILES['name']['tmp_name'],"/file.php\x00.jpg");源码中move_uploaded_file中的save_path可控，因此00截断即可
 ![](/assets/1442660-20181118205809473-913200603.png)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.2 %00截断 POST 绕过**
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**1.2 %00截断 POST 绕过 (version<5.3.4,magic_quotes_gpc需要为OFF状态)**
 ![](/assets/WX20190402-145640@2x.png)
 ![](/assets/WX20190401-132640@2x.png)
 
