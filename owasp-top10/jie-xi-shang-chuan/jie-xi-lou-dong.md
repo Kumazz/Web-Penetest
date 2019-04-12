@@ -6,6 +6,13 @@
 ###0x02 IIS 5.x/6.0 解析漏洞
 ![](/assets/WX20190401-120200@2x.png)
 ![](/assets/A37EC4242E22BE1E565BCFE4B57743BA.png)
+
+```
+    解析漏洞利用:查看数据包,其中Content-Disposition:form-data;name=“path”下面的一行为服务保存文件的相对路径
+    原本的 uploadimg/ 改为 uploadimg/1.php;
+    原本的 filename="yijuhua.php" 改为 filename="yijuhua.jpg"
+
+```
 ###0x03 Nginx 解析漏洞(CVE-2013-4547，Nginx 0.5.x、0.6.x、0.7<=0.7.65、0.8<=0.8.37)
 ![](/assets/WX20190401-131525@2x.png)
 ![](/assets/EC679375B9E54C71BC43CDA0A8EA274D.png)
